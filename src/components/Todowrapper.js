@@ -37,7 +37,7 @@ export const Todowrapper =()=> {
                 task={todo}/>
             ):( 
                  <Todo 
-                 index={index}
+                 index={index+1}
                  task={todo} key={todo.id} 
                 toggleComplete={toggleComplete} 
                 deleteTodo={deleteTodo} editTodo={editTodo}/>
